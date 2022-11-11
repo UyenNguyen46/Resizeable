@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var Circle_1 = require("./Circle");
+var Rectangle_1 = require("./Rectangle");
+var Square_1 = require("./Square");
+var cicrle = new Circle_1.Circle();
+var str = cicrle.resize(100);
+var rectangle = new Rectangle_1.Rectangle();
+var st = rectangle.resize(120);
+var square = new Square_1.Square();
+var stri = square.resize(130);
+console.log(str);
+console.log(st);
+console.log(stri);
